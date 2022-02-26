@@ -7,8 +7,11 @@ public class  App {
         }
 
     }
-    public static void  printInt(int i)
-    {
+    public static void  printInt(int i) {
         System.out.println(String.format("Funkcia bola zavolena %d. krat, ",i));
+        if(i == 0){
+            System.out.println(String.format("zaujimavy vypis"));
+        }
+
     }
 }
