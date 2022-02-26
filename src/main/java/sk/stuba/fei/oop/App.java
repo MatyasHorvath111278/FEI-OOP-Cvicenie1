@@ -9,6 +9,6 @@ public class  App {
     }
     public static void  printInt(int i)
     {
-        System.out.println(i);
+        System.out.println(String.format("Funkcia bola zavolena %d. krat, ",i));
     }
 }
